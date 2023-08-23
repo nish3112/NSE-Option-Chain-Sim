@@ -20,5 +20,4 @@ EXPOSE 5000
 EXPOSE 8102
 
 # Run the backend and streaming apps
-# CMD java -Ddebug=true -Dspeed=1 -classpath /app/streaming/feed-play-1.0.jar hackathon.player.Main /app/streaming/dataset.csv 8102 & python main.py
 CMD java -classpath /app/streaming/feed-play-1.0.jar hackathon.player.Main /app/streaming/dataset.csv 8102 & python main.py
