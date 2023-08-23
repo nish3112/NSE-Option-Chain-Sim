@@ -1,0 +1,60 @@
+
+.table {
+  width: 100%; 
+  border-collapse: collapse;
+  margin: 20px 0;
+  color: white;
+  align-items: center;
+  table-layout: fixed;
+}
+
+th {
+  background-color: #333;
+  border: 1px solid #444; 
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+td {
+  border: 1px solid #444; 
+  padding: 8px;
+  text-align: center;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #222; 
+}
+
+
+tr:nth-child(even) {
+  background-color: #111;
+}
+
+td.strike {
+  color: blue; 
+  font-weight: bold; 
+}
+
+
+.chng-negative {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.1); 
+  font-weight: bold;
+}
+
+
+.chng-positive {
+  color: green;
+  background-color: rgba(0, 255, 0, 0.1); 
+  font-weight: bold;
+}
+
+.blue-column {
+  color: #6966FF;
+  font-weight: bold; 
+}
+
+

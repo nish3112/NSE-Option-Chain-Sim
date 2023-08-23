@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: QuantLib
+Version: 1.31.1
+Summary: Python bindings for the QuantLib library
+Home-page: https://www.quantlib.org
+Author: QuantLib Team
+Author-email: quantlib-users@lists.sourceforge.net
+License: BSD 3-Clause
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+
+
+QuantLib (https://www.quantlib.org/) is a C++ library for financial quantitative
+analysts and developers, aimed at providing a comprehensive software
+framework for quantitative finance.
+      
