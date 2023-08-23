@@ -1,10 +1,6 @@
-// WORKING
 import React from 'react';
 import { useTable, useSortBy } from 'react-table';
 import './SortableTable.css';
-
-
-
 
 const SortableTable = ({ data, selectedSymbol, LTPdata }) => {
   const [changedCells, setChangedCells] = React.useState([]);

@@ -14,8 +14,8 @@ function App() {
 
   const currentTime = new Date().toLocaleString();
   useEffect(() => {
-    const sse_ltp_values = new EventSource('http://127.0.0.1:5000/api/current_ltp_values');
-    const sse_option_values = new EventSource('http://127.0.0.1:5000/api/current_option_values')
+    const sse_ltp_values = new EventSource('https://nse-option-chain-sim-nish.onrender.com/api/current_ltp_values');
+    const sse_option_values = new EventSource('https://nse-option-chain-sim-nish.onrender.com/api/current_option_values')
 
     // FOR LTP VALUES
     sse_ltp_values.onmessage = (event) => {
