@@ -28,7 +28,20 @@ Links to the api endpoints are as follows <br>
 <br>
 <br>
 
-<h3>Structure of json is as follows:</h3><br>
+<h2>Screenshots: </h2>
+
+<img width="960" alt="image" src="https://github.com/nish3112/NSE-Option-Chain-Sim/assets/90258872/d9046d0e-94ef-4beb-ab6a-60f475428b80">
+
+<br>
+<br>
+
+<img width="960" alt="image" src="https://github.com/nish3112/NSE-Option-Chain-Sim/assets/90258872/f373eb51-ed11-449a-9293-d5122e48f930">
+
+<br>
+<br>
+
+
+<h2>Structure of json is as follows:</h2><br>
 
 Current LTP data : <br>
 
