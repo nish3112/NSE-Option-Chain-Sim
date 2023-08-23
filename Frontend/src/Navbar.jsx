@@ -7,7 +7,7 @@ import {
   FaWrench
 } from "react-icons/fa";
 import logo from "./assets/NSE.png";
-import overlayImage from "./assets/overlayImage.png"; // Import the overlay image
+import overlayImage from "./assets/overlayImage.png";
 
 import { NavLink } from "react-router-dom";
 
@@ -64,7 +64,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="">
+                href="https://github.com/nish3112/NSE-Option-Chain-Sim">
                 <FaReadme className="caution" />
               </a>
             </li>
