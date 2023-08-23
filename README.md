@@ -7,7 +7,7 @@ The NSE-Option-Chain-Simulator is a web application built using React and Flask.
 <br>
 
 ## :exclamation: Note : 
-If the API endpoints or the table do not load immediately, kindly wait a moment as the backend may be waking up from sleep.
+If the API endpoints or the table do not load immediately, kindly wait a moment (about 60-120 seconds) as the backend may be waking up from sleep.
 <br>
 
 <h2>Features</h2> 
