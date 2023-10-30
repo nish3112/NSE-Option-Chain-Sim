@@ -77,7 +77,7 @@ function App() {
   return (
     <div>
       <div className="filter-container">
-        <TickerTape description={"If you are unable to view the table below, kindly allow for a brief delay of 3-4 minutes. This may be due to the backend infrastructure transitioning from a state of dormancy. Please avoid unnecessary refreshes"}/>
+        <TickerTape description={"If you are unable to view the table below, kindly allow for a brief delay of 3-4 minutes. This may be due to the backend infrastructure transitioning from a state of dormancy. Please avoid unnecessary refreshes. The data shown is simulated and not from live market !!"}/>
         <label htmlFor="symbol-select" className ="symbol-select" >View Options Contracts for:</label><br></br>
         <select id="symbol-select" className ="symbol-select-dropdown" value={selectedSymbol} onChange={handleSymbolChange}>
           <option value="">SELECT</option>
